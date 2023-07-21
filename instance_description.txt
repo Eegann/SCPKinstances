@@ -1,0 +1,16 @@
+"An instance file is as follow."
+"The names to replace by the proper values are between { }"
+"Comments not present in the instances are between "" "
+
+"================================="
+"===== Start of the instance ====="
+"================================="
+NB_GROUPS
+{Number of groups (integer)}
+NB_ELEMENTS
+{Number of elements per group (integer)}
+WEIGHTS
+{Weight of element i (float)} "Repeat the line for all i in {1, ..., NB_ELEMENTS} in increasing order"
+VALUES
+{Value of element i in group 1 (float)} {Value of element i in group 2 (float)} "..." {Value of element i in group NB_GROUPS (float)} "Repeat the line for all i in {1, ..., NB_ELEMENTS} in increasing order"
+
